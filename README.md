@@ -2,7 +2,6 @@
 ## What is?
 This is simple test code for Spiked-Attention which accepted to Neurips 2024.
 The code is designed by PyTorch Image Models(TIMM), Huggingface Hub and SpikingJelly framework.
-Beacuse of limitation of supplement and annonymity, one of pre-trained ANN(swin-tiny without ReLU) is uploaded on below google drive. 
 
 link for pretrained Swin-Transformer: https://drive.google.com/file/d/1RJH_tdjKLoUHRg0G25ccr0hG8oEQ_lmz/view?usp=sharing
 
