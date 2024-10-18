@@ -2,6 +2,7 @@
 ## What is?
 This is simple test code for Spiked-Attention which accepted to Neurips 2024.
 The code is designed by PyTorch Image Models(TIMM), Huggingface Hub and SpikingJelly framework.
+This code was tested on docker environment (nvcr.io/nvidia/pytorch:23.11-py3)
 
 link for pretrained Swin-Transformer: https://drive.google.com/file/d/1RJH_tdjKLoUHRg0G25ccr0hG8oEQ_lmz/view?usp=sharing
 
@@ -9,13 +10,6 @@ link for pretrained Swin-Transformer: https://drive.google.com/file/d/1RJH_tdjKL
 In this code, you need to download pre-trained model on google drive.
 First, the code will run ANN (swin_tiny_patch4_window7_224).
 Then, pre-trained parameter will converted to SNN and run it.(inferece_##.py)
-
-## Environments
-To install Environments:
-
-```
-./environ.sh
-```
 
 
 # How to RUN (Swin-to-SpikedAttention)
