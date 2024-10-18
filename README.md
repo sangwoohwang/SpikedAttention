@@ -6,12 +6,9 @@ Beacuse of limitation of supplement and annonymity, one of pre-trained ANN(swin-
 
 link for pretrained Swin-Transformer: https://drive.google.com/file/d/1RJH_tdjKLoUHRg0G25ccr0hG8oEQ_lmz/view?usp=sharing
 
-link for pretrained pre-trained MA-BERT for SST-2: https://drive.google.com/file/d/1A8bdmnU77eh-mDd_Zb0-RryR0zxvBAKH/view 
-** You should unzip the file 
-
 
 In this code, you need to download pre-trained model on google drive.
-First, the code will run ANN(swin_tiny_patch4_window7_224 or ma-bert) for scaling threshold(or weight normalization) and searching base.
+First, the code will run ANN (swin_tiny_patch4_window7_224).
 Then, pre-trained parameter will converted to SNN and run it.(inferece_##.py)
 
 ## Environments
