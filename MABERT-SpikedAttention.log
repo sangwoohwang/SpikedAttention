@@ -1,0 +1,27 @@
+Namespace(task='sst2', pretrained_file='../sst2-392-sst2', save_dir='result', file_name='sst2', model='bert-base-uncased', batch_size=16, timestep=16, base=1.4)
+----Conversion of MA-BERT to Spiked Attention ----
+Timestep: 16
+Base: 1.4
+Task Selected: SST2
+Modifications Applied:
+Softmax Approximation: False, Share Softmax: False, Input Size: 128, Hidden Size: 128
+Normalization: Power, Warm-up Iterations: 997120, Accumulation Steps: 8
+Encoder Activation Function: relu
+Done Generating State Dict from Pretrained 
+Namespace(task='sst2', pretrained_file='../sst2-392-sst2', save_dir='result', file_name='sst2', model='bert-base-uncased', batch_size=16, timestep=16, base=1.4)
+----Conversion of MA-BERT to Spiked Attention ----
+Timestep: 16
+Base: 1.4
+Task Selected: SST2
+Modifications Applied:
+Softmax Approximation: False, Share Softmax: False, Input Size: 128, Hidden Size: 128
+Normalization: Power, Warm-up Iterations: 997120, Accumulation Steps: 8
+Encoder Activation Function: relu
+Done Generating State Dict from Pretrained 
+----Performance of Pre-trained MA-BERT----
+{'eval_loss': 0.22152164578437805, 'eval_accuracy': 0.926605504587156, 'eval_runtime': 2.7062, 'eval_samples_per_second': 322.226, 'eval_steps_per_second': 20.324}
+number of GFLOPs:  12.989  
+Total ANN Energy (mJ): 189.723  
+----Performance of SpikedAttention----
+{'eval_loss': 0.21303033828735352, 'eval_accuracy': 0.9197247706422018, 'eval_runtime': 46.1905, 'eval_samples_per_second': 18.878, 'eval_steps_per_second': 1.191}
+Total SNN Energy (mJ):  79.857  
